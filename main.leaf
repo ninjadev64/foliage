@@ -1,0 +1,58 @@
+void func foo(float b) {
+	float a = 256
+	// test comment 1
+	+ b;
+	string c = "Hello,
+\"Foliage\"!"
+	;
+	a = 34.0;
+}
+
+// test comment 2
+
+string func bar(int a, string b) {
+	// test comment 3
+	float c = 1.5 + 3. + 0.5 + 5;
+	int d = (
+		// test comment 4
+		(2 + 4)
+		+ 8
+	) + 16 + 32;
+
+	if c < d {
+		int e = ((d + 128) * 256) - 4;
+		// string f = "e";
+		bool f = true; // - false;
+	}
+
+	return b;
+} // test comment 5
+
+struct Qux {
+	Bax b,
+}
+
+struct Bax {
+	Nox n,
+}
+
+struct Nox {
+	int q,
+}
+
+void func baz() {
+	bool a = false;
+
+	string b = bar(64, bar(16, "trees"));
+	bool c = !a;
+
+	if b == "trees" {
+		int i = 4;
+	} else if b == "leaves" {
+		int i = 8;
+	} else {
+		console.log("Invalid value!");
+	}
+}
+
+/**/
